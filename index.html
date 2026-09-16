@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectando ao Servidor...</title>
+    <style>
+        body {
+            background-color: #0d0e12;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .box {
+            background: #181a20;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #2a2d36;
+        }
+        a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background: #5865F2;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Entrando no Servidor MTA...</h2>
+        <p>Se o MTA não iniciar sozinho, clique no botão abaixo:</p>
+        <a href="mtasa://151.242.227.118:22753">Abrir MTA</a>
+    </div>
+
+    <script>
+        // Dispara a inicialização automática do MTA
+        window.location.href = "mtasa://151.242.227.118:22753";
+    </script>
+</body>
+</html>
